@@ -1,0 +1,1 @@
+powerShell -windowstyle hidden C:\BBW\Informatik\Modul_114_122\Scripts\network_profile_check_startup\script.ps1
