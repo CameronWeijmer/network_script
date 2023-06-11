@@ -28,6 +28,7 @@ else {
 #Netwerk und user prüfen
 if ($profileName -eq "BBW-Student" -and $user -eq "Camer") {
     notify-send -i important "Friendly Reminder" "${greeting_message} ${user} it's ${date} and it's ${temperature_winterthur} degrees"
+    #Programme starten
     Start-Process "C:\Users\Camer\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Microsoft Teams"
     Start-Process "C:\Users\Camer\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code"
     Start-Process "C:\ProgramData\Microsoft\Windows\Start Menu\Docker Desktop"
@@ -35,6 +36,7 @@ if ($profileName -eq "BBW-Student" -and $user -eq "Camer") {
 
 elseif ($profileName -eq "Cam's Net" -and $user -eq "Camer") {
     notify-send -i important "Friendly Reminder" "${greeting_message} ${user} it's ${date} and it's ${temperature_sh} degrees"
+    # Programme starten
     Start-Process "C:\Users\Camer\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord"
     Start-Process "C:\Users\Camer\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code"
 }
